@@ -1,0 +1,268 @@
+{
+    "movegen": {
+      "Gamora": {
+        "health": 100,
+        "cooldown": 0,
+        "current_cell": {
+          "coordinates": "(0, 1)",
+          "cell_type": "Normal",
+          "is_powerStone_present": "False",
+          "guardians_present": [
+            {
+              "belongs_to": "you",
+              "guardian_name": "Gamora"
+            }
+          ]
+        },
+        "neighbour_cells": [
+          [],
+          [
+            {
+              "coordinates": "(0, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": [
+                {
+                  "belongs_to": "you",
+                  "guardian_name": "Rocket"
+                },
+                {
+                  "belongs_to": "you",
+                  "guardian_name": "Groot"
+                },
+                {
+                  "belongs_to": "you",
+                  "guardian_name": "Drax"
+                },
+                {
+                  "belongs_to": "you",
+                  "guardian_name": "StarLord"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "coordinates": "(1, 1)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            },
+            {
+              "coordinates": "(1, 2)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            }
+          ],
+          []
+        ]
+      },
+      "Drax": {
+        "health": 150,
+        "cooldown": 3,
+        "current_cell": {
+          "coordinates": "(0, 0)",
+          "cell_type": "Normal",
+          "is_powerStone_present": "False",
+          "guardians_present": [
+            {
+              "belongs_to": "you",
+              "guardian_name": "Rocket"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Groot"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Drax"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "StarLord"
+            }
+          ]
+        },
+        "neighbour_cells": [
+          [],
+          [],
+          [],
+          [
+            {
+              "coordinates": "(1, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            }
+          ]
+        ]
+      },
+      "Rocket": {
+        "health": 75,
+        "cooldown": 0,
+        "current_cell": {
+          "coordinates": "(0, 0)",
+          "cell_type": "Normal",
+          "is_powerStone_present": "False",
+          "guardians_present": [
+            {
+              "belongs_to": "you",
+              "guardian_name": "Rocket"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Groot"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Drax"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "StarLord"
+            }
+          ]
+        },
+        "neighbour_cells": [
+          [],
+          [],
+          [],
+          [
+            {
+              "coordinates": "(1, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            },
+            {
+              "coordinates": "(2, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            }
+          ]
+        ]
+      },
+      "Groot": {
+        "health": 200,
+        "cooldown": 0,
+        "current_cell": {
+          "coordinates": "(0, 0)",
+          "cell_type": "Normal",
+          "is_powerStone_present": "False",
+          "guardians_present": [
+            {
+              "belongs_to": "you",
+              "guardian_name": "Rocket"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Groot"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Drax"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "StarLord"
+            }
+          ]
+        },
+        "neighbour_cells": [
+          [],
+          [],
+          [],
+          [
+            {
+              "coordinates": "(1, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            },
+            {
+              "coordinates": "(2, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            }
+          ]
+        ]
+      },
+      "StarLord": {
+        "health": 100,
+        "cooldown": 0,
+        "current_cell": {
+          "coordinates": "(0, 0)",
+          "cell_type": "Normal",
+          "is_powerStone_present": "False",
+          "guardians_present": [
+            {
+              "belongs_to": "you",
+              "guardian_name": "Rocket"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Groot"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "Drax"
+            },
+            {
+              "belongs_to": "you",
+              "guardian_name": "StarLord"
+            }
+          ]
+        },
+        "neighbour_cells": [
+          [],
+          [],
+          [],
+          [
+            {
+              "coordinates": "(1, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            },
+            {
+              "coordinates": "(2, 0)",
+              "cell_type": "Normal",
+              "is_powerStone_present": "False",
+              "guardians_present": []
+            }
+          ]
+        ]
+      }
+    },
+    "feedback": [
+     {
+        "code": "STAR_LORD_SPECIAL_POWER",
+        "message": "Star Lord Special Power",
+        "data": {
+          "special_vision": [
+            [],
+            [],
+            [
+              [0, 1],
+              [0, 2],
+              [0, 3],
+              [0, 4],
+              [0, 5]
+            ],
+            [
+              [1, 0],
+              [2, 0],
+              [3, 0],
+              [4, 0],
+              [5, 0]
+            ]
+          ]
+        }
+      }
+    ],
+    "penalty_score": 300,
+    "round_no": 2
+  }
